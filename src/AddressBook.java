@@ -16,7 +16,7 @@ public class AddressBook {
         this.buddies.add(buddy);
     }
 
-    //testing pulling
+    //testing pulling v2
     public BuddyInfo removeBuddy(int index){
         if(index >= 0 && index < buddies.size()) {
             return buddies.remove(index);
